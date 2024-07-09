@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keys and its Types</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Keys and its Types</h1>
+
+      <h3>Keys</h3>
+      <p>
+        In a DBMS (Database Management System), keys are used to uniquely
+        identify records (rows) in a table. They ensure data integrity and help
+        establish relationships between tables. Below are the main types of
+        keys:
+      </p>
+
+      <h3>Primary Key</h3>
+      <p>
+        A primary key uniquely identifies each record in a table, ensuring no
+        duplicates and requiring every record to have a unique identifier, thus
+        preventing NULL values within its domain. It acts as the foundation for
+        maintaining data integrity and enforcing relationships between tables.
+      </p>
+
+      <h3>Foreign Key</h3>
+      <p>
+        A foreign key is a field in one table that references the primary key in
+        another table, establishing a relationship between the two. It enforces
+        referential integrity by ensuring that values in the foreign key column
+        match values in the primary key column of the referenced table.
+      </p>
+
+      <h3>Candidate Key</h3>
+      <p>
+        A candidate key is any field or combination of fields that can uniquely
+        identify a record in a table. A table can have multiple candidate keys,
+        but only one of the candidate keys can be chosen as the primary key.
+      </p>
+
+      <h3>Alternate Key</h3>
+      <p>
+        An alternate key is a candidate key that is not chosen as the primary
+        key. In cases where there are two or more candidate keys, only one of
+        them is selected to serve as the primary key. The alternate key provides
+        an alternative identifier for a record and is unique within the table,
+        offering additional options for data retrieval and maintenance.
+      </p>
+
+      <h3>Super Key</h3>
+      <p>
+        A super key is a set of attributes (columns) that can uniquely identify
+        a record within a table. It can contain more attributes than necessary
+        to uniquely identify a record. In other words, it is a superset of a
+        candidate key.
+      </p>
+    </div>
+  </body>
+</html>
